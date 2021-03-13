@@ -14,6 +14,7 @@
 		2B6F0BB625FBF9B900F3E918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F0BB425FBF9B900F3E918 /* LaunchScreen.storyboard */; };
 		2B6F0BC125FBF9B900F3E918 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F0BC025FBF9B900F3E918 /* ParstagramTests.swift */; };
 		2B6F0BCC25FBF9B900F3E918 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F0BCB25FBF9B900F3E918 /* ParstagramUITests.swift */; };
+		2B96EF0A25FC3873005A176D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96EF0925FC3873005A176D /* PostCell.swift */; };
 		2BDEA44025FBFE9C004C4A91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEA43F25FBFE9C004C4A91 /* LoginViewController.swift */; };
 		2BDEA44525FBFEA7004C4A91 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEA44425FBFEA7004C4A91 /* FeedViewController.swift */; };
 		2BDEA44A25FC0DAA004C4A91 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEA44925FC0DAA004C4A91 /* CameraViewController.swift */; };
@@ -52,6 +53,7 @@
 		2B6F0BC725FBF9B900F3E918 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6F0BCB25FBF9B900F3E918 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		2B6F0BCD25FBF9B900F3E918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B96EF0925FC3873005A176D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2BDEA43F25FBFE9C004C4A91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2BDEA44425FBFEA7004C4A91 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2BDEA44925FC0DAA004C4A91 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				2BDEA43F25FBFE9C004C4A91 /* LoginViewController.swift */,
 				2BDEA44425FBFEA7004C4A91 /* FeedViewController.swift */,
 				2BDEA44925FC0DAA004C4A91 /* CameraViewController.swift */,
+				2B96EF0925FC3873005A176D /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				2B6F0BAA25FBF9B800F3E918 /* AppDelegate.swift in Sources */,
 				2BDEA44525FBFEA7004C4A91 /* FeedViewController.swift in Sources */,
 				2B6F0BAC25FBF9B800F3E918 /* SceneDelegate.swift in Sources */,
+				2B96EF0A25FC3873005A176D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

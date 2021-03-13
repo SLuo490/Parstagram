@@ -29,7 +29,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         //save image as png
         let imageData = imageView.image!.pngData()
-        let file = PFFileObject(data: imageData!)
+        let file = PFFileObject(name: "image.png", data: imageData!)
         
         post["image"] = file
         
